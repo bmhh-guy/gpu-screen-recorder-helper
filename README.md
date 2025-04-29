@@ -1,7 +1,7 @@
 # gpu-screen-recorder-helper
 Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する。
 
-## gpu-screen-recorder-wrapper
+## gpu-screen-recorder-helper
 
 `gpu-screen-recorder` コマンドをラップし、保存先ディレクトリやファイル名の対話的指定、エラーハンドリング、多言語メッセージ対応を提供する Bash スクリプトです。
 
@@ -23,7 +23,7 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
 
 - Linux 環境  
 - Bash (`bash >= 4.4`)  
-- `gpu-screen-recorder` コマンドがインストール済みであること  
+- `gpu-screen-recorder` コマンドがインストール済みであること（Arch Linuxを利用している場合[AURからインストールできます](https://aur.archlinux.org/packages/gpu-screen-recorder)）。  
 
 ---
 
