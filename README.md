@@ -23,7 +23,7 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
 
 - Linux 環境  
 - Bash (`bash >= 4.4`)  
-- `gpu-screen-recorder` コマンドがインストール済みであること（Arch Linuxを利用している場合[AURからインストールできます](https://aur.archlinux.org/packages/gpu-screen-recorder)）。  
+- `gpu-screen-recorder` コマンドがインストール済みであること（Arch Linuxを利用している場合[AUR](https://aur.archlinux.org/packages/gpu-screen-recorder)からインストールできます）。  
 
 ---
 
@@ -34,16 +34,17 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
    git clone https://github.com/bmhh-guy/gpu-screen-recorder-helper.git
    cd gpu-screen-recorder-helper
    ```
-- 必要に応じて、デスクトップエントリを作成し、パスを通してください。
 
 2. 実行権限を付与  
    ```bash
-   chmod +x gpu-screen-recorder-wrapper.sh
+   chmod +x Record.sh
    ```
+3. デスクトップエントリを作成することをおすすめします。
+   - gpu-screen-recorder-helperには私が作成したデスクトップエントリが含まれますが、これはKDE Plasma + Konsole向けに作成されており、他のDEやターミナルエミュレータでは正しく機能しない可能性があります。
 
-3. 必要に応じて `$PATH` に追加  
+5. 必要に応じて `$PATH` に追加  
    ```bash
-   mv gpu-screen-recorder-wrapper.sh /usr/local/bin/gpu-rec
+   mv YourDesktopEntry /usr/local/bin/rec
    ```
 
 ---
@@ -55,7 +56,7 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
 ./gpu-screen-recorder-wrapper.sh
 
 # またはインストール後にエイリアスで
-gpu-rec
+rec
 ```
 
 1. **保存先ディレクトリ**  
@@ -113,31 +114,6 @@ supported_langs=(en ja ru zh ko es)
 - 保存先ディレクトリに書き込み権限がない場合はエラーとなります。  
 - `set -euo pipefail` など厳格モードを利用しているため、予期しないエラーで停止します。  
 - 自動生成されるファイル名は `recording_YYYYMMDD_HHMMSS.mp4` 形式です。
+- このスクリプトはシンプルすぎます。このスクリプトはあくまでもひな型です。ご自身でスクリプトを編集して改良してください。
 
 ---
-
-## ライセンス
-
-MIT License  
-
-```
-Copyright (c) 2025
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-  
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-  
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
-
