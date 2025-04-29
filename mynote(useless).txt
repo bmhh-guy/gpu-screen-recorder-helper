@@ -1,0 +1,26 @@
+gpu-screen-recorder -w screen -f 60 -a default_output -q medium -o /home/administrator/ビデオ/output.mp4
+
+オプション
+-w  範囲
+-f  FPS
+-a  音
+-o  保存場所
+-q  クオリティ
+
+Ctrl+Cで録画終了
+
+gpu-screen-recorder -w screen -f 60 -a default_output -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a default_output -a default_input -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a "default_output|default_input" -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a default_output -c mkv -r 60 -o "$HOME/Videos"
+gpu-screen-recorder -w screen -f 60 -a default_output -c mkv -sc script.sh -r 60 -o "$HOME/Videos"
+gpu-screen-recorder -w portal -f 60 -a default_output -restore-portal-session yes -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a default_output -bm cbr -q 15000 -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a "app:firefox|app:csgo" -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a "app-inverse:firefox|app-inverse:csgo" -o video.mp4
+gpu-screen-recorder -w screen -f 60 -a "default-input|app-inverse:Brave" -o video.mp4
+gpu-screen-recorder -w screen -o image.jpg
+gpu-screen-recorder -w screen -q medium -o image.jpg
+gpu-screen-recorder -w region -region 640x480+100+100 -o video.mp4
+gpu-screen-recorder -w region -region $(slop) -o video.mp4
+gpu-screen-recorder -w region -region $(slurp -f "%wx%h+%x+%y") -o video.mp4

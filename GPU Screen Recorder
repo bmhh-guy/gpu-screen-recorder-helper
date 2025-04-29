@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=konsole -e /home/administrator/gpu-screen-recorder-automation/Record.sh
+GenericName=
+MimeType=
+Name=GPU Screen Recorder
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
