@@ -1,5 +1,15 @@
+## 利用可能な言語
+
+- [English](README.md)
+- [日本語](README.ja.md)
+- [正體中文 (Taiwan)](README.zh-TW.md)
+- [简体中文 (China)](README.zh-CN.md)
+- [한국어 (Korean)](README.ko.md)
+- [Русский (Russian)](README.ru.md)
+- [Español (Spanish)](README.es.md)
+
 # gpu-screen-recorder-helper
-Start [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) easier. / 簡単に[gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)を実行する。
+簡単に[gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)を実行する。
 
 ## gpu-screen-recorder-helper
 
