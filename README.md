@@ -31,9 +31,10 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
 
 1. リポジトリをクローンまたはスクリプトをダウンロード  
    ```bash
-   git clone https://github.com/yourname/gpu-screen-recorder-wrapper.git
-   cd gpu-screen-recorder-wrapper
+   git clone https://github.com/bmhh-guy/gpu-screen-recorder-helper.git
+   cd gpu-screen-recorder-helper
    ```
+- 必要に応じて、デスクトップエントリを作成し、パスを通してください。
 
 2. 実行権限を付与  
    ```bash
