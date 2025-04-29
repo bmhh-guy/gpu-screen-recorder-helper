@@ -53,7 +53,7 @@ Start [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)
 
 ```bash
 # スクリプトを直接実行
-./gpu-screen-recorder-wrapper.sh
+./Record.sh
 
 # またはインストール後にエイリアスで
 rec
