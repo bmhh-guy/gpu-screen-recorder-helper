@@ -1,5 +1,5 @@
 # gpu-screen-recorder-helper
-Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する。
+Start [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) easier. / 簡単に[gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)を実行する。
 
 ## gpu-screen-recorder-helper
 
@@ -23,7 +23,7 @@ Start gpu-screen-recorder easier. / 簡単にgpu-screen-recorderを実行する�
 
 - Linux 環境  
 - Bash (`bash >= 4.4`)  
-- `[gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/)` コマンドがインストール済みであること（Arch Linuxを利用している場合[AUR](https://aur.archlinux.org/packages/gpu-screen-recorder)からインストールできます）。  
+- `gpu-screen-recorder` コマンドがインストール済みであること（[こちら](https://git.dec05eba.com/gpu-screen-recorder/about/)を参照してください）。  
 
 ---
 
