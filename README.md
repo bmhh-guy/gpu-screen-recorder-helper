@@ -1,7 +1,7 @@
 ## Available Languages
 
 - [English](README.md)
-- [日本語](README.ja.md)
+- [日本語 (Japanese)](README.ja.md)
 - [正體中文 (Taiwan)](README.zh-TW.md)
 - [简体中文 (China)](README.zh-CN.md)
 - [한국어 (Korean)](README.ko.md)
