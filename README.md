@@ -132,8 +132,3 @@ The script extracts the language code from the `LANG` environment variable and d
 - This script is intentionally simple and serves as a template. Please modify it to suit your needs.
 
 ---
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
