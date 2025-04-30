@@ -1,3 +1,5 @@
+## As you know, [gpu-screen-recorder-gtk](https://git.dec05eba.com/gpu-screen-recorder-gtk/about/) or [gpu-screen-recorder-ui](https://git.dec05eba.com/gpu-screen-recorder-ui/about/) are available. So gpu-screen-recorder-helper is useless.
+
 ## Available Languages
 
 - [English](README.md)
